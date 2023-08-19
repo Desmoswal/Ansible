@@ -1,7 +1,0 @@
----
-- hosts: all
-  become: true
-  tasks:
-    - name: TEST - update homeassistant os
-      ansible.builtin.shell:
-        cmd: host shutdown
